@@ -1,0 +1,29 @@
+{
+  "configs": [
+    "hellomulev2.xml",
+    "global.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:hellomulev2:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.5.0",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "dev.properties",
+        "global.xml",
+        "hellomulev2.xml",
+        "keystore-hellomule.jks",
+        "local.properties",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
